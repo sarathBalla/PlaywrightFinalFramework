@@ -1,0 +1,31 @@
+{
+  "name": "playwrighte2eframework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-dev": "cross-env ENV_NAME=demo npx playwright test",
+    "test-demo": "cross-env ENV_NAME=demo npx playwright test",
+    "test-dev-chrome": "cross-env ENV_NAME=demo npx playwright test --project=chromium --headed",
+    "test-dev-firefox": "cross-env ENV_NAME=demo npx playwright test --project=firefox --headed",
+    "test-dev-webkit": "cross-env ENV_NAME=demo npx playwright test --project=webkit",
+    "test-demo-ui": "cross-env ENV_NAME=demo npx playwright test --ui",
+    "test-uat-cr-hd": "cross-env ENV_NAME=demo npx playwright test --project=chromium --grep=@UAT",
+    "test-uat-cr-hd-vi": "cross-env ENV_NAME=demo npx playwright test --project=chromium --grep=@VISUAL",
+    "test-demo-cr-hd-if": "cross-env ENV_NAME=demo npx playwright test --project=chromium --last-failed --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/crypto-js": "^4.2.2",
+    "@types/node": "^25.2.3"
+  },
+  "dependencies": {
+    "cross-env": "^10.1.0",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^17.3.1"
+  }
+}
