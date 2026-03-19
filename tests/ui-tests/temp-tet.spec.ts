@@ -1,6 +1,6 @@
 //import {test} from '../fixtures/pom-fixture';
 import { expect } from '@playwright/test';
-import { test } from '../fixtures/hooks-fixture';
+import { test } from '../../fixtures/hooks-fixture';
 //import CommonUtil from '../utils/CommonUtils';
 //import {LoginPage} from '../pages/LoginPage';
 

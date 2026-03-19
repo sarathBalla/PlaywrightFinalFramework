@@ -1,5 +1,5 @@
-import { test, expect } from '../fixtures/hooks-fixture';
-import pimModuleData from '../data/pim-module-data.json';
+import { test, expect } from '../../fixtures/hooks-fixture';
+import pimModuleData from '../../data/ui-data/pim-module-data.json';
 
 test('[PIM] verify that new employee is sucessfully added under the PIM',{
     tag:['@UI','@UAT'],

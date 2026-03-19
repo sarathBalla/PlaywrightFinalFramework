@@ -8,8 +8,8 @@ export default class CommonUtil {
 
         //this.SecretKey = process.env.SECRET_KEY?process.env.SECRET_KEY:SecretKey;
 
-        if (process.env.SECRET_KEY) {
-            this.SecretKey = process.env.SECRET_KEY;
+        if (process.env.UI_SECRET_KEY) {
+            this.SecretKey = process.env.UI_SECRET_KEY;
         }
         else {
             throw new Error('Secret key is not provided. Please set the SECRET_KEY environment variable or pass it as a parameter to the constructor.');

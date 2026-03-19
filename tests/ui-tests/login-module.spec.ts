@@ -1,6 +1,6 @@
-import { test, expect } from '../fixtures/hooks-fixture';
-import loginModuleData from '../data/login-module-data.json';
-import { LeftNavigation } from '../pages/LeftNavigation';
+import { test, expect } from '../../fixtures/hooks-fixture';
+import loginModuleData from '../../data/ui-data/login-module-data.json';
+import { LeftNavigation } from '../../pages/LeftNavigation';
 
 // Here we are stoping the Global setup for this file by using the cookies and origins
 test.use({
