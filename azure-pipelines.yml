@@ -21,7 +21,7 @@ steps:
 - script: npx playwright install --with-deps
   displayName: 'Install Playwright Browsers'
 
-- script: npm run test-demo-ui-cr-hd-api
+- script: npx playwright test --project=chromium --project=apiTest
   displayName: 'Run Tests'
 
 - script: |
