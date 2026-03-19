@@ -1,5 +1,5 @@
 import { APIRequestContext } from '@playwright/test'
-import apiPathData from '../../PlaywrightE2EFramework/data/api-data/api-path-data.json'
+import apiPathData from '../data/api-data/api-path-data.json'
 import cryptoJs from 'crypto-js';
 
 export default class CommonapiUtils {
