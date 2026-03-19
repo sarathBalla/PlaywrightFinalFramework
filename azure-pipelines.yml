@@ -24,11 +24,6 @@ steps:
 - script: npx playwright test --project=chromium --project=apiTest
   displayName: 'Run Tests'
 
-- script: |
-    echo "Current directory:"
-    pwd
-    echo "Listing files:"
-    ls -R
-  displayName: Debug Paths
+
 
 
