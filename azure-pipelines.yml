@@ -21,7 +21,7 @@ steps:
 - script: npx playwright install --with-deps
   displayName: 'Install Playwright Browsers'
 
-- script: npx playwright test --project=chromium --project=apiTest
+- script: npm run $(SCRIPT_KEY_VAL)
   displayName: 'Run Tests'
 
 
