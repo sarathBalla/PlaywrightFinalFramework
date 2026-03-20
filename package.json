@@ -15,7 +15,7 @@
     "test-demo-cr-hd-if": "cross-env ENV_NAME=demo npx playwright test --project=chromium --last-failed --headed",
     "test-demo-api": "cross-env ENV_NAME=demo npx playwright test --project=apiTest",
     "test-demo-ui-cr-hd-api": "cross-env ENV_NAME=demo npx playwright test --project=chromium --headed --project=apiTest",
-    "test-demo-CI": "cross-env ENV_NAME=demo npx playwright test --project=chromium --grep=@VISUAL --project=apiTest"
+    "test-demo-CI": "cross-env ENV_NAME=demo npx playwright test --project=chromium --grep=@UAT --project=apiTest"
   },
   "keywords": [],
   "author": "",
